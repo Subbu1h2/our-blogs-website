@@ -1,0 +1,20 @@
+/* Remove underline and add spacing/hover for navbar links */
+.navbar-nav .nav-item {
+  margin-right: 20px;
+}
+
+.navbar-nav .nav-item:last-child {
+  margin-right: 0;
+}
+
+.navbar-nav .nav-item a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.2s, border-bottom 0.2s;
+  padding-bottom: 2px;
+}
+
+.navbar-nav .nav-item a:hover {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+}
